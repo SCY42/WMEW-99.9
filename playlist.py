@@ -38,7 +38,7 @@ class Playlist:
             return None
         else:           
             result = choice( intros )
-            print( result )
+            print( f"{'[INTRO]':<15}{ result[ len( AUDIO_PATH[ State.INTRO ] ) + 1 : -4 ] }" )
             return result
 
 
@@ -56,7 +56,7 @@ class Playlist:
             return None
         else:           
             result = choice( outros )
-            print( result )
+            print( f"{'[OUTRO]':<15}{ result[ len( AUDIO_PATH[ State.OUTRO ] ) + 1 : -4 ] }" )
             return result
 
 

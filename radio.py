@@ -6,6 +6,7 @@ from time import sleep
 
 
 mixer.init()
+PADDING_TIME = 1
 
 
 class Radio:
@@ -31,36 +32,37 @@ class Radio:
             try:
                 intro = mixer.Sound( self.playlist[ self.state ].getIntro() )
                 intro.play()
-                sleep( intro.get_length() + 1 )
+                sleep( intro.get_length() + PADDING_TIME )
             except TypeError:
-                print( "No Intro!" )
+                print( f"{'[INTRO]':<15}!SKIPPED DUE TO NO INTRO!" )
 
-            print( self.playlist[ self.state ].songName )
+
+            self.printLog()
             song.play()
-            sleep( song.get_length() + 1 )
+            sleep( song.get_length() + PADDING_TIME )
 
         # nowPlaying 호출 전, 직전 재생된 음악의 아우트로를 재생
         elif self.state == State.OUTRO:
             try:
                 outro = mixer.Sound( self.playlist[ State.SONG ].getOutro() )
                 outro.play()
-                sleep( outro.get_length() + 1 )
+                sleep( outro.get_length() + PADDING_TIME )
             except TypeError:
-                print( "No Outro!" )
+                print( f"{'[OUTRO]':<15}!SKIPPED DUE TO NO OUTRO!" )
 
         else:
             audio = mixer.Sound( self.playlist[ self.state ].nowPlaying() )
-            print( self.playlist[ self.state ].songName )
+            self.printLog()
             audio.play()
-            sleep( audio.get_length() + 1 )
+            sleep( audio.get_length() + PADDING_TIME )
 
 
     def nextState( self ):
         self.state = choice( NEXT[ self.state ] )
 
 
-    def printState( self ):
-        print( self.state.name )
+    def printLog( self ):
+        print( f"{'['+self.state.name+']':<15}{ self.playlist[ self.state ].songName[ :-4 ] }" )
 
 
     def loop( self ):
