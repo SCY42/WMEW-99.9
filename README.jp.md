@@ -1,4 +1,4 @@
-[![kr](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-003e89)](https://github.com/PseudoCardiac/WMEW-99.9/blob/master/README.kr.md) [![en](https://img.shields.io/badge/English-cfa64d)](https://github.com/PseudoCardiac/WMEW-99.9/blob/master/README.en.md) [![jp](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-bc002d)](https://github.com/PseudoCardiac/WMEW-99.9/blob/master/README.jp.md)
+[![kr](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-003e89)](https://github.com/PseudoCardiac/WMEW-99.9/blob/main/README.md) [![en](https://img.shields.io/badge/English-cfa64d)](https://github.com/PseudoCardiac/WMEW-99.9/blob/main/README.en.md) [![jp](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-bc002d)](https://github.com/PseudoCardiac/WMEW-99.9/blob/main/README.jp.md)
 
 # 概要
 
