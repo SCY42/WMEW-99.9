@@ -10,6 +10,7 @@
 
 ## 오디오 파일
 
+> [!IMPORTANT]
 > `Steam\steamapps\common\Mewgenics` 경로에 위치한 `resource.gpak` 파일에 포함된 에셋을 추출하세요.
 
 - 스팀에서 Mewgenics 우클릭 → 관리 → 로컬 파일 탐색을 선택하여 빠르게 폴더를 찾을 수 있습니다.

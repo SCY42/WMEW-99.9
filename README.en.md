@@ -10,6 +10,7 @@ Please note that you must set up the audio files yourself, due to copyright rest
 
 ## Audio Files
 
+> [!IMPORTANT]
 > Extract the assets contained in the `resource.gpak` file, located in `Steam\steamapps\common\Mewgenics`.
 
 * You can quickly locate the folder by right-clicking Mewgenics in Steam → Manage → Browse Local Files.

@@ -10,6 +10,7 @@
 
 ## 音声ファイル
 
+> [!IMPORTANT]
 > `Steam\steamapps\common\Mewgenics` にある `resource.gpak` ファイルからアセットを抽出してください。
 
 * SteamでMewgenicsを右クリック → 「管理」→ 「ローカルファイルを閲覧」を選択すると、フォルダーをすぐに開けます。
